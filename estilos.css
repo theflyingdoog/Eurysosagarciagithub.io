@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 2.7em;
+}
+h3 {
+  font-size: 2em;
+}
+p {
+  font-size: 1.25em;
+}
+
+.button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+
+.python-button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.front-end{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.aplica-ahora{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+    text-decoration: none;
+}
+.ya-ahora{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ya-ahora:hover{
+    color: rgb(7, 6, 8);
+}
+.aplica-ahora:hover{
+    color: rgb(7, 6, 8);
+}
+.front-end:hover{
+    color: rgb(7, 6, 8);
+}
+.python-button:hover{
+    color: rgb(7, 6, 8);
+}
+.button:hover{
+    color: rgb(7, 6, 8);
+}
+
+button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+  color: white;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+button :hover {
+  background-color: rgb(101, 33, 165);
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.color-acento {
+  color: blueviolet;
+}
+
+header {
+  background-color: rgb(224, 224, 220);
+}
+
+header .logo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+header a:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/imagenes/hero.jpg");
+  background-size: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#hero h1 {
+  color: white;
+}
+
+#somos-web .container {
+  text-align: center;
+  padding: 200px 12px;
+}
+
+#nuestros-programas {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  text-align: center;
+}
+
+#nuestros-programas .container {
+  padding: 100px 0px;
+}
+
+#nuestros-programas h2 {
+  margin-top: 0;
+}
+
+#nuestros-programas p {
+  display: none;
+}
+
+#nuestros-programas .carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.carta:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/imagenes/full-stack.jpg");
+}
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/imagenes/python.jpg");
+}
+
+.carta:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/imagenes/front-end.jpeg");
+}
+
+#caracteristicas .container {
+  text-align: center;
+  padding: 250px 12px;
+}
+
+#caracteristicas li {
+  margin: 16px 0px;
+  font-weight: bold;
+}
+
+#aplica-Ya {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  height: 80vh;
+}
+
+#aplica-Ya h2 {
+  font-size: 9vw;
+}
+#aplica-Ya button {
+  font-size: 5vw;
+}
+
+footer {
+  background-color: bisque;
+}
+footer p {
+  margin: 0;
+  padding: 12px;
+  color: rgb(86, 85, 85);
+}
+
+footer.container {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media (min-width: 720px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+
+  #somos-web .img-container {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5)
+      )
+      url("/imagenes/images.png");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+  }
+}
