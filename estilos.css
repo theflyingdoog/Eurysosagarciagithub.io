@@ -181,7 +181,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imagenes/hero.jpg");
+    url("./imagenes/hero.jpg");
   background-size: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -228,7 +228,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imagenes/full-stack.jpg");
+    url("./imagenes/full-stack.jpg");
 }
 
 .carta:nth-child(2) {
@@ -237,7 +237,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imagenes/python.jpg");
+    url("./imagenes/python.jpg");
 }
 
 .carta:nth-child(3) {
@@ -246,7 +246,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imagenes/front-end.jpeg");
+    url("./imagenes/front-end.jpeg");
 }
 
 #caracteristicas .container {
